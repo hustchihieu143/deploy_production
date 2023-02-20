@@ -10,8 +10,6 @@ COPY ./ ./
 # Install only production dependencies
 RUN npm install
 
-
-
 RUN npm run build
 
 # Copy compiled files
